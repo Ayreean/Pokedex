@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokedex</title>
+</head>
+
+<body>
+
+<!-- ... (previous HTML code) ... -->
+
+<div class="main">
+    <h2>Pokedex</h2>
+
+    <!-- Search input field -->
+    <input style="width: 100%; height: 40px; padding-left: 10px;" type="text" id="search" placeholder="Procurar por algum pokemon...">
+
+    <div class="pokemon-boxes">
+        <!-- The dynamically generated Pokémon boxes will be inserted here -->
+    </div> <!-- pokemon-boxes -->
+
+    <!-- The floating window (popup) for Pokémon details -->
+    <div class="popup-overlay">
+        <div class="popup-content">
+            <span class="popup-close-btn">&times;</span>
+            <div class="pokemon-details"></div>
+        </div>
+    </div>
+
+</div>
+
+<!-- ... (rest of the HTML code) ... -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
