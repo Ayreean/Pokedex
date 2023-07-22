@@ -1,4 +1,3 @@
-// JavaScript Function
 function pegaPokemons(quantidade) {
     fetch("https://pokeapi.co/api/v2/pokemon?limit=" + quantidade)
         .then((response) => response.json())
